@@ -138,13 +138,13 @@ int print_reverse(va_list types, char buffer[],
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
  * print_rot13string - Print a string in rot13.
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: List of arguments
+ * @buffer: Buffer array to handle the print
+ * @flags:  Calculates the active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Numbers of chars printed
+ * @size:The Size specifier
+ * Return: Numbers of characters printed
  */
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
